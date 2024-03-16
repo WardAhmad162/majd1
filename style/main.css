@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 10000px;
+}
+.container{
+    width:calc(100% - 180px);
+    margin: auto;
+}
+/*header*/
+header{
+    position: sticky;
+    width: 100%;
+    top:0;
+    z-index: 9;
+    padding: 15px 0px;
+    background-color: #fff;
+}
+header img ,footer .logo img{
+    width: 150px;
+}
+
+nav a{
+    color: #505F98;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:19px;
+}
+
+header .land{
+    color: rgb(55, 55, 196);
+    font-size: 30px;
+}
+
+header .buy{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+}
+header .buy a{
+    padding: 4px 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #111B47;
+}
+/*main*/
+/*hero*/
+.hero .subcontainer{
+    width: 50%;
+}
+.hero .part1 span{
+    width: 50%;
+    color: #111B47;
+    font-size: 34px;
+}
